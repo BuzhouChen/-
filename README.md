@@ -1,6 +1,7 @@
 
 # JD-Web-Crawler
- 京东数据爬取（不完全匹配版）     
+ 京东数据爬取（不完全匹配且无好评率版）  
+ **!!! 未实现好评率爬取，默认设置为100 !!!**          
 ***声明：本程序仅作为学习交流使用！侵删***
 
 ## 前置条件   
@@ -16,12 +17,16 @@ re: 正则表达式
 建议主要参考参考资料网址。   
 
 新增函数`getDetails(driver, id)`用来获取品类、品牌和尺码，无法匹配则返回空值。
-我用来爬服装领域的，其他领域可能不匹配。可以自己写正则表达式来匹配。
+我用来爬服装领域的，其他领域可能不匹配。可以自己写正则表达式来匹配。   
+
+
 
 
 ## 使用指南
 
-将`username_field.send_keys('username')`的username换成自己京东的用户名，将`password_field.send_keys('password')`换成自己的密码。
+将`username_field.send_keys('username')`的username换成自己京东的用户名，将`password_field.send_keys('password')`换成自己的密码。   
+
+**!!! 未实现好评率爬取，默认设置为100 !!!**      
 
 
 
